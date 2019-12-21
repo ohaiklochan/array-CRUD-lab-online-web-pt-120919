@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   the_office = ["Michael","Jim", "Dwight", "Pam"]
   the_office << "Ryan"
-  puts 
+  puts the_office.inspect
 end
 
 def add_element_to_start_of_array(array, element)
