@@ -6,12 +6,12 @@ def create_an_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
   the_office << "Ryan"
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
   the_office.unshift("Ryan")
 end
