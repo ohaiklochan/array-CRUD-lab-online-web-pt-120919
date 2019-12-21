@@ -39,4 +39,5 @@ end
 def retrieve_last_element_from_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
   the_office.last
+  puts the_office.inspect
 end
