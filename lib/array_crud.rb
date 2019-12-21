@@ -28,9 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   the_office = ["Jim", "Dwight", "Pam"]
-  the_office[0]
-  the_office[1]
-  the_office[2]
+  the_office.index("Dwight")
 end
 
 def retrieve_first_element_from_array(array)
