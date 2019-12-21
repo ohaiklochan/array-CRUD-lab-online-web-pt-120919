@@ -18,12 +18,12 @@ end
 
 def remove_element_from_end_of_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
-  the_office.pop
+  "Pam" = the_office.pop
 end
 
 def remove_element_from_start_of_array
   the_office = ["Michael","Jim", "Dwight", "Pam"]
-  the_office.shift
+  "Michael" = the_office.shift
 end
 
 def retrieve_element_from_index
