@@ -27,10 +27,14 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  the_office = ["Jim", "Dwight", "Pam"]
+  the_office[0]
+  the_office[1]
+  the_office[2]
 end
 
 def retrieve_first_element_from_array(array)
+  the_office = ["Jim", "Dwight", "Pam"]
   
 end
 
