@@ -8,13 +8,12 @@ end
 
 def add_element_to_end_of_array(array, element)
   the_office = ["Michael","Jim", "Dwight", "Pam"]
-  the_office << "Ryan"
-  puts the_office.inspect
+  the_office.unshift "Ryan"
 end
 
 def add_element_to_start_of_array(array, element)
   the_office = ["Michael","Jim", "Dwight", "Pam"]
-  the_office.unshift("Ryan")
+  the_office.push("Ryan")
 end
 
 def remove_element_from_end_of_array(array)
