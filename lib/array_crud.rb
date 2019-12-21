@@ -37,6 +37,5 @@ def retrieve_first_element_from_array
 end
 
 def retrieve_last_element_from_array
-  the_office = ["Michael","Jim", "Dwight", "Pam"]
   the_office.last
 end
